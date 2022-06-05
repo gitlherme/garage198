@@ -13,8 +13,8 @@ const colors = {
 }
 
 const fonts = {
-  primary: "Bebas Neue, cursive",
-  secondary: "Inter, sans-serif"
+  primary: "Playfair Display, serif",
+  secondary: "Montserrat, sans-serif"
 }
 
 export const theme = extendTheme({ colors, fonts })
