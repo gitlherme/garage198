@@ -29,7 +29,8 @@ export function Services() {
       <ServiceItem title="Corte simples + Dimil" price={35.00}/>
       <ServiceItem title="Corte degradê + Dimil" price={40.00}/>
       <ServiceItem title="Corte + Tintura" price={45.00}/>
-      <ServiceItem title="Corte + Botox" price={50.00}/>
+      <ServiceItem title="Corte + Relaxamento" price={50.00}/>
+      <ServiceItem title="Corte + Botox" price={60.00}/>
       <ServiceItem title="Corte + Progressiva" price={60.00}/>
       <ServiceItem title="Corte + Luzes" price={60.00}/>
       <ServiceItem title="Corte + Descoloração Global" price={70.00}/>
