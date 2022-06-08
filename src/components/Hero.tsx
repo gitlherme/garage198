@@ -7,7 +7,7 @@ export function Hero() {
       bgImage="url(hero-bg.png)"
       bgPosition="center"
       color="white"
-      h="80vh"
+      h={["100vh", "90vh"]}
       align="center"
     >
       <VStack align="left" px="8" gap="2" maxW={700}>
