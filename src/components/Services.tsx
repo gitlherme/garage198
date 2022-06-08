@@ -6,15 +6,18 @@ export function Services() {
       bg="brand.blue900"
       py="8"
       gap="8"
+      id="services"
     >
       <Text as="h2"
         fontFamily="primary"
         fontSize="4xl"
         textAlign="center"
         fontWeight="bold"
-        color="brand.yellow"
+        color="white"
+        letterSpacing={1}
+        textTransform="uppercase"
       >
-        Serviços
+        Nossos Serviços
       </Text>
       <ServiceItem title="Pézinho" price={10.00}/>
       <ServiceItem title="Sobrancelha" price={10.00}/>

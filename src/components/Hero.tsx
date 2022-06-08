@@ -4,7 +4,8 @@ import { Button } from "./Button";
 export function Hero() {
   return (
     <Flex
-      bg="brand.blue900"
+      bgImage="https://images.unsplash.com/photo-1520338661084-680395057c93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      bgPosition="center"
       color="white"
       h="80vh"
       align="center"
@@ -16,9 +17,11 @@ export function Hero() {
           fontWeight="900"
           fontSize="7xl"
           textTransform="uppercase"
-          lineHeight="4rem"
+          lineHeight="5rem"
+          letterSpacing={2}
         >
-          Barbearia Garage 198
+          <Text>Barbearia</Text>
+          <Text>Garage 198</Text>
         </Text>
         <Text
           as="p"

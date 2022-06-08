@@ -13,7 +13,7 @@ const colors = {
 }
 
 const fonts = {
-  primary: "Playfair Display, serif",
+  primary: "Anton, serif",
   secondary: "Montserrat, sans-serif"
 }
 
