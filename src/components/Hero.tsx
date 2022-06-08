@@ -1,4 +1,5 @@
-import { Flex, Link, Text, VStack } from "@chakra-ui/react";
+import { Flex, Text, VStack } from "@chakra-ui/react";
+import { Button } from "./Button";
 
 export function Hero() {
   return (
@@ -23,25 +24,9 @@ export function Hero() {
           as="p"
           fontFamily="secondary"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, vitae, inventore quam placeat error esse consectetur labore dolores saepe sed commodi reiciendis omnis dolorum quo deserunt tenetur ab non asperiores?
+          A Barbearia Garage198 vem com a finalidade de trazer conforto e lazer. Para isso, foi preciso fazer uma transformação em nossa garagem, que ficou espetacular! Tudo pensado para o cliente se sentir em casa. Com alguns móveis reformados, temos uma aparência vintage, que era nosso objetivo. 
         </Text>
-        <Link
-          colorScheme="yellow"
-          w="150px"
-          fontFamily="secondary"
-          fontSize="1.1rem"
-          bg="yellow.400"
-          color="black"
-          fontWeight="bold"
-          textAlign="center"
-          py="2"
-          _hover={{
-            textDecoration: 'none',
-            bgColor: 'yellow.500'
-          }}
-        >
-          Agendar 
-        </Link>
+        <Button title="Agendar" href="https://api.whatsapp.com/send?phone=5511930003693&text=Ol%C3%A1%2C+gostaria+de+agendar+um+hor%C3%A1rio%21" />
       </VStack>
     </Flex>
   )

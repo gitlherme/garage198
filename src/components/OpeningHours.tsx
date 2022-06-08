@@ -2,7 +2,7 @@ import { Text, VStack } from "@chakra-ui/react";
 
 export function OpeningHours() {
   return (
-    <VStack py="4">
+    <VStack py="8">
       <Text as="h2"
         fontFamily="primary"
         fontSize="2xl"
@@ -23,7 +23,7 @@ export function OpeningHours() {
         fontSize="xl"
         textAlign="center"
       >
-        Das 9:00 às 18:00
+        Das 9:00 às 21:00
       </Text>
     </VStack>
   )
