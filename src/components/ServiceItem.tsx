@@ -8,7 +8,7 @@ interface ServiceItemProps {
 export function ServiceItem({title, price}: ServiceItemProps) {
   return (
     <VStack 
-        w={["100%", "100%", 800]}
+        w={["100%", "100%", "100%", 800]}
         borderBottom="1px solid white"
         pb="4"
       >

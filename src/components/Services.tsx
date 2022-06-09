@@ -7,6 +7,7 @@ export function Services() {
       py="8"
       gap="8"
       id="services"
+      px="4"
     >
       <Text as="h2"
         fontFamily="primary"
