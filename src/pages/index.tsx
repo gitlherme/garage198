@@ -1,5 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import { Footer } from '../components/Footer'
+import { Gallery } from '../components/Gallery'
 import { Header } from '../components/Header'
 import { Hero } from '../components/Hero'
 import { OpeningHours } from '../components/OpeningHours'
@@ -15,6 +17,8 @@ const Home: NextPage = () => {
       <Hero />
       <OpeningHours /> 
       <Services /> 
+      <Gallery />
+      <Footer />
     </>
   ) 
 }
