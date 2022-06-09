@@ -15,7 +15,7 @@ export function Hero() {
           as="h1"
           fontFamily="primary"
           fontWeight="900"
-          fontSize="7xl"
+          fontSize={["6xl", "7xl"]}
           textTransform="uppercase"
           lineHeight="5rem"
           letterSpacing={2}
