@@ -19,13 +19,15 @@ export function Footer() {
           _hover={{
             color: "brand.orange"
           }}
+          isExternal
         >
           <Icon as={RiInstagramLine} fontSize="2rem" />
         </Link>
-        <Link href="https://www.instagram.com/garage___198/"
+        <Link href="https://www.tiktok.com/@barbeariagarage198"
           _hover={{
             color: "brand.yellow"
           }}
+          isExternal
         >
           <Icon as={FaTiktok} fontSize="1.5rem" />
         </Link>
