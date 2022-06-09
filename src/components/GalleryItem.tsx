@@ -24,7 +24,7 @@ export function GalleryItem({ src, alt, title }: GalleryItemProps) {
         <ModalContent>
           <ModalCloseButton />
           <ModalBody>
-          <Image src={src} alt={alt} title={title} onClick={onOpen} py={16}/>
+          <Image src={src} alt={alt} title={title} onClick={onOpen} py={8} px={16} />
           </ModalBody>
         </ModalContent>
       </Modal>

@@ -1,4 +1,5 @@
-import { Flex, Icon, Link } from "@chakra-ui/react";
+import { Flex, HStack, Icon, Link } from "@chakra-ui/react";
+import { FaTiktok } from 'react-icons/fa';
 import { RiInstagramLine } from 'react-icons/ri';
 export function Header() {
   return (
@@ -24,13 +25,22 @@ export function Header() {
           color: "brand.yellow"
         }}>Serviços</Link>
       </Flex>
-      <Link href="https://www.instagram.com/garage___198/"
-        _hover={{
-          color: "brand.yellow"
-        }}
-      >
-        <Icon as={RiInstagramLine} fontSize="2rem" />
-      </Link>
+      <HStack gap={4}>
+        <Link href="https://www.instagram.com/garage___198/"
+          _hover={{
+            color: "brand.yellow"
+          }}
+        >
+          <Icon as={RiInstagramLine} fontSize="2rem" />
+        </Link>
+        <Link href="https://www.instagram.com/garage___198/"
+          _hover={{
+            color: "brand.yellow"
+          }}
+        >
+          <Icon as={FaTiktok} fontSize="1.5rem" />
+        </Link>
+      </HStack>
     </Flex>
   )
 }
