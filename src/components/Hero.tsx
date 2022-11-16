@@ -29,7 +29,7 @@ export function Hero() {
         >
           A Barbearia Garage198 vem com a finalidade de trazer conforto e lazer. Para isso, foi preciso fazer uma transformação em nossa garagem, que ficou espetacular! Tudo pensado para o cliente se sentir em casa. Com alguns móveis reformados, temos uma aparência vintage, que era nosso objetivo. 
         </Text>
-        <Button title="Agendar" href="https://api.whatsapp.com/send?phone=5511930003693&text=Ol%C3%A1%2C+gostaria+de+agendar+um+hor%C3%A1rio%21" />
+        <Button title="Agendar" href="https://booksy.com/pt-br/222032_barbearia-garage-198_cabelo_1047773_sao-paulo#ba_s=sr_1" />
       </VStack>
     </Flex>
   )
