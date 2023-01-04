@@ -26,7 +26,7 @@ export function OpeningHours() {
           textAlign="center"
           pb={["8", "16"]}
         >
-          Das 9:00 às 21:00
+          Das 11:00 às 21:00
         </Text>
       </VStack>
       <Box w="100%" h="600">
